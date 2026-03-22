@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Practice Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Git Practice Playground</h1>
+      <p>Type git commands and check your answer. Built for learning.</p>
+    </header>
+
+    <section class="question-panel">
+      <p id="prompt">Loading challenge...</p>
+      <input id="inputCommand" type="text" placeholder="e.g., git status" autofocus />
+      <button id="checkBtn">Check</button>
+      <button id="nextBtn">Next Challenge</button>
+      <p id="result"></p>
+    </section>
+
+    <section class="info">
+      <h2>How to use</h2>
+      <ol>
+        <li>Read the challenge prompt.</li>
+        <li>Enter the best git command in the input box.</li>
+        <li>Click <strong>Check</strong> and learn with feedback.</li>
+        <li>Click <strong>Next Challenge</strong> for another scenario.</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
